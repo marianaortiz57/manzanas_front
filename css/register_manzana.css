@@ -1,0 +1,50 @@
+.imagen_registro{
+    background-position: center center;
+    background-image: url(../imagenes/imagen_registro.jpg);
+    background-size: cover;
+}
+.row{
+    margin-bottom: 3rem;
+}
+.body{
+	background-color: #F8EDE3;
+}
+
+.ulFooter{
+    list-style: none;
+}
+.footer{
+    color: white !important;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    height: 100%;
+}
+.ms-0{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.anchoFooter{
+    background-color: #9707A3;
+}
+
+.botonIndex {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8ede3;
+    height: 2rem;
+    width: 7rem;
+}
+button:hover{
+    background-color: #FACBEA;
+}
+.botonEditar{
+	border-radius: 8px;
+    border: none;
+    background-color: #FADBD2;
+    height: 2rem;
+    width: 10rem;
+}

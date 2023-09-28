@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="En esta pagina web buscamos apoyar a las mujeres y sus familias  con servicios gratuitos con los cuales se veran beneficiados.">
+    <meta name="author" content="AngiE Katherine Toro Echeverry, Leidy Mariana Ortiz Londoño">
+    <meta name="keywords"
+        content="Manzanas, mujeres, servicio social,Manzanas del cuidado,familias,servicios gratuitos">
+    <title>Manzanas Del Cuidado</title>
+    <link rel="shortcut icon" href="../imagenes/logo.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/register_manzana.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../imagenes/logo.png" alt="" width="65" height="45">
+                Manzanas del cuidado
+            </a>
+            <div class="d-flex justify-content-end">
+                <a href="../html/index.html"><button  class="button_index" style="width:10rem"><img src="../imagenes/user_person_profile_avatar_icon_190943.ico" width="15%" alt=""> Cerrar Sesión</button></a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="imagen_registro mt-4" src="../imagenes/register_local.jpg" style="width: 90%;" alt="Mujeres en clase">
+            </div>
+            <div class="col">
+                <h1 class=" mb-4 titulo">Registro de establecimiento</h1>
+
+                <form>
+                    <div class="mb-4">
+                        <input id="code" placeholder="Código del establecimiento" class="form-control" type="text" required>
+                    </div>
+                    <div class="mb-4">
+                        <input id="name" placeholder="Nombre" class=" form-control" type="text" required>
+                    </div>
+                    
+                    <div class="mb-4 col">
+                        <input id="responsible" placeholder="Responsable del establecimiento" class="form-control" type="text" required>
+                    </div>
+                
+                    <div class="mb-4 col">
+                        <input id="address" placeholder="Dirección" class=" form-control" id="city" type="text" required>
+                    </div>
+                    <div class="mb-4 col">
+                        <input id="city" placeholder="Ciudad" class="form-control" type="number" required>
+                    </div>
+                    
+                    
+                    <div class="d-grid">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <button type="button" id="save" class="btn botonEditar">Guardar</button>
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                    <a href="main_administration.html"><button type="submit" id="cancel" class=" btn botonEditar">Cancelar</button></a>
+                </div>
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="anchoFooter">
+        <footer class=" container ms-0   footer blockquote-footer">
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <h5>Sedes Principales</h5>
+                    <ul class="ulFooter">
+                        <li>Medellin</li>
+                        <li>Bogota</li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-4 ">
+                    <h5>Contáctanos</h5>
+
+                    <p>Correo electrónico: info@example.com</p>
+                    <p>Teléfono: 123-456-7890</p>
+                </div>
+                <div class="col-lg-4 ">
+                    <h5>Derechos de autor</h5>
+                    <p>(c) 2023 Manzanas del Cuidado. Todos los derechos reservados.</p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/register_local.js"></script>
+</body>
+
+</html>

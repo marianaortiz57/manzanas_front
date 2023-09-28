@@ -1,0 +1,25 @@
+<body>
+    <ul id="lista">
+    </ul>
+
+    <script>
+        let url = 'https://md2246sl-8000.use2.devtunnels.ms/'
+        fetch(`${url}get_${value}`) // Reemplaza con la URL correcta
+            .then(response => response.json())
+            .then(data => {
+                // Limpia la lista existente (si la hubiera)
+                const lista = document.getElementById('lista');
+                lista.innerHTML = '';
+
+                // Itera sobre los elementos de la lista y agrégalos al DOM
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item.nombre; // Suponiendo que cada elemento tiene una propiedad "nombre"
+                    lista.appendChild(li);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    </script>
+</body>

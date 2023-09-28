@@ -1,0 +1,48 @@
+.botonIngreso{
+    
+    background-color: white;
+    border-color: #804674;
+    border-radius: 7px;
+}
+
+.botonIngreso:hover{
+    background-color: #f8ede3; 
+    border-color: #804674; 
+}
+.imagenLogo{
+    background-position: center center;
+    background-image: url(../imagenes/mujeres-luchando.jpg);
+    background-size: cover;
+}
+.titulo{
+    color: #804674;
+    font-size: 40px;
+
+}
+body{
+    background-color: #f8ede3;
+}
+.border{
+    border-color: #804674;
+
+}
+
+.ulFooter{
+    list-style: none;
+}
+.footer{
+   
+    color: white !important;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    height: 100%;
+
+}
+.ms-0{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.anchoFooter{
+    background-color: #9707A3;
+}

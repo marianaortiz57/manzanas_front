@@ -1,0 +1,28 @@
+.imagen_registro{
+    background-position: center center;
+    background-image: url(../imagenes/imagen_registro.jpg);
+    background-size: cover;
+}
+.row{
+    margin-bottom: 3rem;
+}
+.ulFooter{
+    list-style: none;
+}
+.footer{
+   
+    color: white !important;
+    font-size: 15px;
+    margin-top: 5px;
+    position:relative;
+    height: 8rem;
+    width: 10rem;
+    
+}
+.ms-0{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.anchoFooter{
+    background-color: #9707A3;
+}
